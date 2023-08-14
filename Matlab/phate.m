@@ -158,7 +158,7 @@ end
 if isempty(a) && k <=5
     disp '======================================================================='
     disp 'Make sure k is not too small when using an unweighted knn kernel (a=[])'
-    disp(['Currently k = ' numstr(k) ', which may be too small']);
+    disp(['Currently k = ' num2str(k) ', which may be too small']);
     disp '======================================================================='
 end
 
